@@ -17,6 +17,9 @@ int puntaje(Persona* p1){
         cout << "la segunda cosa es: " << p1->fecha[i % 10] << endl ;
         cout << "la primera cosa es: " << p1->tarjeta[i] << endl ;
         cout << "esta suma es: " << suma << endl ;
+        if (p1 -> fecha[i]== '-'){
+            tamano++;
+        }
     }
     return suma;
 
